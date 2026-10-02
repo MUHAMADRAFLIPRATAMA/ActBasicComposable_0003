@@ -79,7 +79,6 @@ fun TataletakColumnRow(modifier: Modifier) {
     }
 }
 
-
 @Composable
 fun TataletakRowColumn(modifier: Modifier) {
     Row(modifier = modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceEvenly) {
@@ -139,14 +138,13 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
             Image(painter = gambar,
                 contentDescription = null,
                 contentScale = ContentScale.Fit)
+            Text(text = "My Music",
+                fontSize = 50.sp,
+                color = Color.Red,
+                fontWeight = FontWeight.Bold,
+                fontFamily = FontFamily.Cursive,
+                modifier= Modifier.align(
+                    alignment = Alignment.Center))
         }
-        Text(text = "My Music",
-            fontSize = 50.sp,
-            color = Color.Red,
-            fontWeight = FontWeight.Bold,
-            fontFamily = FontFamily.Cursive,
-            modifier= Modifier.align(
-                alignment = Alignment.Center))
     }
 }
-
