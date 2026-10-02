@@ -58,3 +58,12 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 fontSize = 14.sp,
                 color = Color.White
             )
+            Spacer(modifier = Modifier.height(48.dp))
+
+            // Logo
+            Image(
+                painter = logo,
+                contentDescription = "Logo",
+                contentScale = ContentScale.Fit,
+                modifier = Modifier.size(140.dp)
+            )
