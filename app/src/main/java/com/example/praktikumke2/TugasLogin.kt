@@ -102,3 +102,11 @@ fun TugasLogin(modifier: Modifier = Modifier) {
         }
     }
 }
+
+@Preview(showBackground = true)
+@Composable
+fun TugasLoginPreview() {
+    PraktikumKe2Theme {
+        TugasLogin()
+    }
+}
