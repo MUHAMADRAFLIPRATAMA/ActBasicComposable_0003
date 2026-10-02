@@ -75,3 +75,9 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold,
                 color = Color.Red
             )
+            Text(
+                text = "Muhamad Rafli Pratama",
+                fontSize = 14.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Blue
+            )
